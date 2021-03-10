@@ -1,2 +1,3 @@
 # quacky-dev-site
-soon:tm: part 2
+
+The New Quacky Bot Website! You can view it at: [dev.quacky.xyz](https://dev.quacky.xyz)

@@ -1,0 +1,186 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #3E5779;
+  visibility: hidden;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #EF2D56;
+  font-family: "Londrina Shadow";
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  color: #69F287;
+}
+
+h3 {
+  font-family: "Montserrat";
+  color: #EEF36A;
+}
+
+a {
+  transition-duration: 0.4s;
+  color: #7289da;
+}
+
+a:hover {
+  color: #5FCC84;
+  cursor: pointer;
+}
+
+p, li {
+  font-family: "Comfortaa";
+  color: #add8e6;
+}
+
+/* Buttons and Custom Classes */
+button, .button {
+  color: #9FFF59;
+  background-color: #3E5779;
+  text-decoration: none;
+  padding: 1px 6px;
+  transition-duration: 0.4s;
+  border: 2px solid #9FFF59;
+  border-radius: 8px;
+  font-size: 14.5px;
+  font-family: "Montserrat";
+}
+
+button:hover, .button:hover {
+  background-color: #9FFF59;
+  color: black;
+  cursor: pointer;
+}
+
+.avatar {
+  border: 4px solid #5FCC84;
+  border-radius: 100%;
+  transition-duration: 0.4s;
+  width: 250px;
+  height: 250px;
+}
+
+.avatar:hover {
+  border: 4px solid #F4D35E;
+}
+
+.custom-br {
+  display: block;
+  content: '';
+}
+
+.command {
+  color: violet;
+}
+
+/* Features */
+.feature-showcase {
+  display: flex;
+}
+
+.feature-showcase > div {
+  flex: 1;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+.feature-showcase > div > video {
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer */
+.cemoji {
+  display: inline;
+  width: 10px;
+  height: 10px;
+}
+
+.bottom, .bottom2, .cookie, .cookie2 {
+  /* position: absolute; */
+  position: block;
+  bottom: 5px;
+  width: 100%;
+  height: 20px;
+  background-color: #23272A;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Baloo Tamma 2";
+}
+
+.bottom2, .cookie2 {
+  height: 50px;
+  display: none;
+}
+
+.bottom, .bottom2 {
+  padding-bottom: 30px;
+}
+
+.bottom2 {
+  padding-bottom: 60px;
+}
+
+.cookie, .cookie2 {
+  position: fixed;
+}
+
+.cookie > button, .cookie2 > button {
+  background-color: #23272A;
+}
+
+.cookie > button:hover, .cookie2 > button:hover {
+  background-color: #9FFF59;
+  color: black;
+  cursor: pointer;
+}
+
+@media (max-width: 599px) {
+  .bottom, .cookie, .feature-showcase > div > video, .feature-showcase > div > div > p {
+    display: none;
+  }
+  .bottom2, .cookie2, .show-on-mobile {
+    display: block;
+  }
+  .feature-showcase {
+    display: block;
+  }
+  p {
+    text-indent: 0px;
+  }
+  .feature-showcase > div > p {
+    color: #add8e6;
+  }
+}
+
+@media (min-width: 900px) {
+  .bottom, .cookie, .feature-showcase > div > video, .feature-showcase > div > div > p {
+    display: block;
+  }
+  .bottom2, .cookie2, .show-on-mobile {
+    display: none;
+  }
+  .feature-showcase {
+    display: flex;
+  }
+  p {
+    text-indent: 10px;
+  }
+  .feature-showcase > div > p {
+    color: #9FFF59;
+  }
+}
