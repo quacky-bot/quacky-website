@@ -1,3 +1,3 @@
-# quacky-dev-site
+# quacky-website
 
-The New Quacky Bot Website! You can view it at: [dev.quacky.xyz](https://dev.quacky.xyz)
+The Quacky Bot Website! You can view the site live at: [quacky.xyz](https://quacky.xyz)
