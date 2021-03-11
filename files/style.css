@@ -44,6 +44,14 @@ p, li {
   color: #add8e6;
 }
 
+p {
+  text-indent: 10px;
+}
+
+.feature-showcase > div > p {
+  color: #9FFF59;
+}
+
 /* Buttons and Custom Classes */
 button, .button {
   color: #9FFF59;
@@ -123,30 +131,38 @@ button:hover, .button:hover {
 }
 
 .bottom2, .cookie2 {
-  height: 50px;
+  height: auto;
   display: none;
 }
 
-.bottom, .bottom2 {
+.bottom {
   padding-bottom: 30px;
-}
-
-.bottom2 {
-  padding-bottom: 60px;
 }
 
 .cookie, .cookie2 {
   position: fixed;
 }
 
-.cookie > button, .cookie2 > button {
+.cookie > button, .cookie2 > div > button {
   background-color: #23272A;
 }
 
-.cookie > button:hover, .cookie2 > button:hover {
+.cookie > button:hover, .cookie2 > div > button:hover {
   background-color: #9FFF59;
   color: black;
   cursor: pointer;
+}
+
+@media (max-width: 337px) {
+  .bottom2 {
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 338px) {
+  .bottom2 {
+    padding-bottom: 60px;
+  }
 }
 
 @media (max-width: 599px) {
@@ -176,11 +192,5 @@ button:hover, .button:hover {
   }
   .feature-showcase {
     display: flex;
-  }
-  p {
-    text-indent: 10px;
-  }
-  .feature-showcase > div > p {
-    color: #9FFF59;
   }
 }
