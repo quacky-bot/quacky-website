@@ -6,7 +6,7 @@ __Features Include:__
 :hammer: Moderation Commands including:
        :hash: Text Channel Management
        :loudspeaker: Voice Channel Management
-       :notepad_spiral: Message Logging (soon:tm:)
+       :notepad_spiral: Message Logging
 :wrench: Utility including User Searching and Guild Information
 :flag_white: Role Management
 :camera: Image Manipulation
