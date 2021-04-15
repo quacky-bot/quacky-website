@@ -1,20 +1,18 @@
 ---
-name: Bug report
-about: Create a bug report if anything's wrong with the website!
+name: Bug Report
+about: Report a Bug on the Website!
 title: ''
 labels: bug
-assignees: 'duckmasteral'
+assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+<!-- The page where the bug was found. -->
+<!-- For example, https://quacky.xyz/partner -->
+**Link to where this bug was found:**
 
-**To Reproduce**
-Steps to reproduce the behavior:
+<!-- Describe what is going wrong with the site and how we can fix it -->
+<!-- For example, the page color is blue, not red -->
+**Bug description:**
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Additional context**
-Add any other context about the problem here.
+<!-- If any additional information is neccessary, put it below -->
