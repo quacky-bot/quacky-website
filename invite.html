@@ -27,17 +27,17 @@
   <title>Invite Quacky Bot</title>
 </header>
 <body style="background-color: #3E5779;">
-  <p style="color: white;">If you are not redirected, <a href="https://discordapp.com/api/oauth2/authorize?client_id=478370481926438932&permissions=2146823415&scope=bot">click here :)</a></p>
+  <p style="color: white;">If you are not redirected, <a href="https://discordapp.com/api/oauth2/authorize?client_id=478370481926438932&permissions=1099780063364&scope=applications.commands%20bot">click here :)</a></p>
   <script>
     window.onload = function() {
       var param = new URLSearchParams(window.location.search).get('delete');
       if (param == 1) {
-        var extra = "&redirect_uri=https%3A%2F%2Fdev.quacky.xyz%2Fcallback&response_type=code"
+        var extra = "&redirect_uri=https%3A%2F%2Fquacky.xyz%2Fcallback&response_type=code"
       }
       else {
         var extra = ""
       }
-      document.location.replace("https://discordapp.com/api/oauth2/authorize?client_id=478370481926438932&permissions=2146823415&scope=bot" + extra);
+      document.location.replace("https://discordapp.com/api/oauth2/authorize?client_id=478370481926438932&permissions=1099780063364&scope=applications.commands%20bot" + extra);
     }
   </script>
 </body>
